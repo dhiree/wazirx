@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODLINFO</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">HODLINFO</div>
+        <div class="header-right">
+            <select id="currency-select">
+                <option value="INR">INR</option>
+            </select>
+            <select id="crypto-select">
+                <option value="BTC">BTC</option>
+            </select>
+            <button id="buy-btn">BUY BTC</button>
+        </div>
+    </header>
+    <main>
+        <div class="price-info">
+            <div class="price-change">
+                <span id="price-change-5min">0.1%</span>
+                <span>5 Mins</span>
+            </div>
+            <div class="price-change">
+                <span id="price-change-1hour">0.96%</span>
+                <span>1 Hour</span>
+            </div>
+            <div class="current-price">
+                <span>₹</span>
+                <span id="current-price">26,56,110</span>
+            </div>
+            <div class="price-change">
+                <span id="price-change-1day">2.73%</span>
+                <span>1 Day</span>
+            </div>
+            <div class="price-change">
+                <span id="price-change-7days">7.51%</span>
+                <span>7 Days</span>
+            </div>
+        </div>
+        <div class="best-price">Best Price to Trade</div>
+        <table id="crypto-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Platform</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Difference</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191d28;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #191d28;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3dc6c1;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+}
+
+select,
+button {
+    background-color: #2e3241;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#buy-btn {
+    background-color: #3dc6c1;
+}
+
+main {
+    padding: 20px;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.price-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-price {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.best-price {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #2e3241;
+}
+
+th {
+    background-color: #2e3241;
+}
+
+tr:nth-child(even) {
+    background-color: #2e3241;
+}
